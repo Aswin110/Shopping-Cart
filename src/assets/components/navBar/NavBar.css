@@ -12,6 +12,7 @@
     min-height: 100vh;
     height: 100%;
     color: white;
+    display: grid;
 }
 
 .logo {
@@ -19,13 +20,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* align-content: center; */
-    padding: 1em;gap: 1em;
-    border: 1px solid white;
+    padding: 3em;
+    gap: 1.5em;
+}
+
+span {
+    margin-left: 0.5em;
 }
 
 img{
     max-width: 50px;
     max-height: 50px;
     border-radius: 50%;
+}
+
+.content {
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items:center ;
+}
+
+.container:hover {
+    color: #646cff;
+}
+
+.footer {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1em;
+}
+
+.footerContainer {
+    color: rgb(76, 86, 86);
 }
