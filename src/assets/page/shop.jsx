@@ -3,9 +3,9 @@ import NavBar from "../components/navBar/NavBar.jsx";
 function ShopPage () {
     return (
         <>
-            <div className="home">
+            <div className="shop">
                 <NavBar/>
-                <div className="homeRightSection">
+                <div className="shopRightSection">
                     ShopPage
                 </div>
             </div>

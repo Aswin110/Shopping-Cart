@@ -1,0 +1,8 @@
+.cat {
+    width:300px;
+    height: 500px;
+    min-width: 100px;
+    min-height: 300px;
+    user-select: none;
+    padding: 10px;
+}

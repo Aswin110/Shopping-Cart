@@ -3,9 +3,9 @@ import NavBar from "../components/navBar/NavBar.jsx";
 function CartPage () {
     return (
         <>
-            <div className="home">
+            <div className="cart">
                 <NavBar/>
-                <div className="homeRightSection">
+                <div className="cartRightSection">
                     CartPage
                 </div>
             </div>

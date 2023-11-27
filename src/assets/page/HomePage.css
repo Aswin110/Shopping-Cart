@@ -1,8 +1,43 @@
-.home {
+.Home{
     width: 100%;
+    display: flex;
+    background: #F5F5F5;
+    gap: 1rem;
+    text-align: center;
 }
 
-.homeRightSection {
-    border: 1px solid black;
-    color: black;
+.HomeRightSection{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.speed {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.jordan {
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.level {
+    font-size: medium;
+    font-weight: normal;
+    padding: 0 100px;
+    margin-top: -4rem;
+}
+
+.shopButton {
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 50%;
+    width: fit-content;
+    border: none;
+    margin: auto; 
+    cursor: pointer;
 }

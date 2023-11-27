@@ -1,16 +1,30 @@
 import NavBar from "../components/navBar/NavBar.jsx";
+import Carousel from "../components/carousel/carousel.jsx";
+import Category from "../components/category/category.jsx";
+import './HomePage.css'
 
 function HomePage () {
     return (
         <>
-            <div className="home">
+            <div className="Home">
                 <NavBar/>
-                <div className="homeRightSection">
-                    homePage
+                <div className="HomeRightSection">
+                    <Carousel/>
+                    <pre className = "speed">
+                        {'SPEED BEYOND YOUR \nWILDEST DREAMS'}
+                    </pre>
+                    <p >Make it real with Mercurial Dream 7</p>
+                    <Category/>
+                    
+                    <pre className = "speed">
+                        <h1 className="jordan">Jordan</h1>
+                        FLIGHT ESSENTIALS
+                    </pre>
+                    <p className="level">Level up your fits with pieces rooted in Jordan heritage. From everyday fleece essentials in subtle washed colors to classic outerwear silhouettes and utilitarian pants, these staples are timelessly cool.</p>
+                    <button className="shopButton">shop</button>
                 </div>
             </div>
         </>
     )
 }
-
 export default HomePage;
