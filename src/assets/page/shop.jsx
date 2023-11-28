@@ -1,9 +1,9 @@
 import NavBar from "../components/navBar/NavBar.jsx";
 import { useEffect, useState } from 'react'
-import {menCloth, womenCloth} from "../components/fakeclothAPI/cloth.jsx";
+import { menCloth, womenCloth } from "../components/fakeclothAPI/cloth.jsx";
 import Card from "../components/card/card.jsx";
 import { useSelector, useDispatch } from 'react-redux'
-import {addTCart} from "./cartSlice.js"
+import { addTCart } from "./cartSlice.js"
 import './shop.css'
 
 function ShopPage () {
