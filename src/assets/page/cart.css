@@ -1,0 +1,14 @@
+.cart{
+    width: 100%;
+    display: flex;
+    background: #F5F5F5;
+    gap: 1rem;
+    text-align: center;
+}
+
+.cartRightSection {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

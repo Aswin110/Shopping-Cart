@@ -1,4 +1,5 @@
 import NavBar from "../components/navBar/NavBar.jsx";
+import './cart.css'
 
 function CartPage () {
     return (
@@ -6,7 +7,7 @@ function CartPage () {
             <div className="cart">
                 <NavBar/>
                 <div className="cartRightSection">
-                    CartPage
+                    Cart is empty
                 </div>
             </div>
         </>
