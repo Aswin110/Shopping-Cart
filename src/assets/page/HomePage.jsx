@@ -1,6 +1,7 @@
 import NavBar from "../components/navBar/NavBar.jsx";
 import Carousel from "../components/carousel/carousel.jsx";
 import Category from "../components/category/category.jsx";
+import { Link } from "react-router-dom";
 import './HomePage.css'
 
 function HomePage () {
@@ -21,7 +22,7 @@ function HomePage () {
                         FLIGHT ESSENTIALS
                     </pre>
                     <p className="level">Level up your fits with pieces rooted in Jordan heritage. From everyday fleece essentials in subtle washed colors to classic outerwear silhouettes and utilitarian pants, these staples are timelessly cool.</p>
-                    <button className="shopButton">shop</button>
+                    <Link to='/shop'><button className="shopButton" >shop</button></Link>
                 </div>
             </div>
         </>

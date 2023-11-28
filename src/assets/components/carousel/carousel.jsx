@@ -7,7 +7,6 @@ function Carousel () {
     let [current, setCurrent] = useState (0)
     const images = [ 'src/assets/images/nike1.png', 'src/assets/images/nike2.png','src/assets/images/nike3.png', 'src/assets/images/nike4.png', 'src/assets/images/nike5.png']
     const length = images.length;
-    console.log(current);
 
     const prev = () => {
         setCurrent(current === 0? length - 1: current - 1)
@@ -16,7 +15,6 @@ function Carousel () {
     const next = () => {
         setCurrent(current === length - 1? 0: current + 1)
     }
-
 
     return (
         <div>

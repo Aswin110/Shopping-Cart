@@ -5,4 +5,11 @@
     min-height: 300px;
     user-select: none;
     padding: 10px;
+    cursor: pointer;
+    transition: transform 1s ease;
 }
+
+.cat:hover{
+    transform: scale(1.05);
+}
+
