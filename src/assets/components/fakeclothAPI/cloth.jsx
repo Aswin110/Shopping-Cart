@@ -3,7 +3,7 @@ async function menCloth () {
     try{
         let response = await fetch("https://fakestoreapi.com/products/category/men's clothing");
         let data = await response.json();
-        console.log(data);
+        // console.log(data);
         return data;
     }
     catch(error){
@@ -15,7 +15,7 @@ async function womenCloth () {
     try{
         let response = await fetch("https://fakestoreapi.com/products/category/women's clothing");
         let data = await response.json();
-        console.log(data);
+        // console.log(data);
         return data;
     }
     catch(error){

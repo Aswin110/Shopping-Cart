@@ -10,7 +10,7 @@ function Card ({image, title, category, price, addToCart }) {
             <div >{title}</div>
             <div className='category'>{category}</div>
             <div>${price}</div>
-            <button onClick={addToCart}>Add to Bag</button>
+            <button className='button' onClick={addToCart}>Add to Bag</button>
         </div>
     )
 }

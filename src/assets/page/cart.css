@@ -4,6 +4,7 @@
     background: #F5F5F5;
     gap: 1rem;
     text-align: center;
+    user-select: none;
 }
 
 .cartRightSection {
@@ -11,4 +12,20 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.sign {
+    border: 1px solid black;
+    padding: 0.1em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color: rgb(206, 239, 240);
+}
+
+.sign-container {
+    user-select: none;
+    width: 30px;
 }
