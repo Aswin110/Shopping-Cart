@@ -1,7 +1,8 @@
 import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faShop, faCartShopping } from '@fortawesome/free-solid-svg-icons'
-
+import  { nikeLogo }  from "public/images/nike-4-logo-svgrepo-com.svg"
+import { nike1 } from "src/assets/images/nike1.png"
 import './NavBar.css'
 
 function NavBar () {
@@ -11,7 +12,7 @@ function NavBar () {
                 <div>
                     <div className="logo">
                         <div className="logoName">Nike</div>
-                        <Link to="/"><img className="nikeLogo" src="public/images/nike-4-logo-svgrepo-com.svg" alt="" /></Link>
+                        <Link to="/"><img className="nikeLogo" src={nikeLogo} alt="" /></Link>
                     </div>
                 </div>
                 <div className="content">
