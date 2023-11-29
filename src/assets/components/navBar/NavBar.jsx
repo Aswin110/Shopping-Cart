@@ -1,8 +1,8 @@
 import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faShop, faCartShopping } from '@fortawesome/free-solid-svg-icons'
-import  { nikeLogo }  from "public/images/nike-4-logo-svgrepo-com.svg"
-import { nike1 } from "src/assets/images/nike1.png"
+import nikeLogo from "../../../../public/images/nike-4-logo-svgrepo-com.svg"
+// import { nike1 } from "src/assets/images/nike1.png"
 import './NavBar.css'
 
 function NavBar () {
