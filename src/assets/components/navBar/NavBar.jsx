@@ -11,7 +11,7 @@ function NavBar () {
                 <div>
                     <div className="logo">
                         <div className="logoName">Nike</div>
-                        <Link to="/"><img className="nikeLogo" src="src/assets/images/nike-4-logo-svgrepo-com.svg" alt="" /></Link>
+                        <Link to="/"><img className="nikeLogo" src="public/images/nike-4-logo-svgrepo-com.svg" alt="" /></Link>
                     </div>
                 </div>
                 <div className="content">
