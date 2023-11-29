@@ -4,6 +4,8 @@ import { menCloth, womenCloth } from "../components/fakeclothAPI/cloth.jsx";
 import Card from "../components/card/card.jsx";
 import { useSelector, useDispatch } from 'react-redux'
 import { addTCart } from "./cartSlice.js"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './shop.css'
 
 function ShopPage () {
@@ -11,8 +13,20 @@ function ShopPage () {
     let [women, setWomen] = useState([]);
     let [loading, setLoading] = useState(true);
 
+    const notify = () => toast("Added to Cart!", {
+        position: "top-right",
+        autoClose: 1000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
+
     const dispatch = useDispatch()
     function addToCart (item) {
+        notify()
         dispatch(addTCart(item))
     }
 
@@ -41,7 +55,11 @@ function ShopPage () {
         <>
             <div className="shop">
                 <NavBar/>
-                {loading?<div>loading...</div>:<div className="shopRightSection">
+                {loading ? (
+                    <div className="loading-container">
+                    Loading...
+                    </div>)
+                    :<div className="shopRightSection">
                     {men.map((man) => {
                         return(
                             <Card 
@@ -69,6 +87,7 @@ function ShopPage () {
                     })}
                 </div>}
             </div>
+            <ToastContainer/>
         </>
     )
 }

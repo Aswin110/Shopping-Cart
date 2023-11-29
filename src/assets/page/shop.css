@@ -12,3 +12,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.loading-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

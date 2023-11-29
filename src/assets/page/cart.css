@@ -7,6 +7,15 @@
     user-select: none;
 }
 
+.cart-card {
+    width: 300px;
+    height: 500px;
+    height: min-content;
+    margin: 1em;
+    padding: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
 .cartRightSection {
     width: 100%;
     overflow: hidden;
@@ -28,4 +37,10 @@
 .sign-container {
     user-select: none;
     width: 30px;
+}
+
+.cart-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
