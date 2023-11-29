@@ -1,6 +1,7 @@
 import './category.css';
-// import { useState } from 'react';
-// import { Link } from 'react-router-dom'
+import nikeKids from '../../../../public/images/nikekids.png'
+import nikeMen from '../../../../public/images/nikemen.png'
+import nikeWomen from '../../../../public/images/nikewomen.png'
 
 const Category = () => {
 
@@ -16,9 +17,9 @@ const Category = () => {
         console.log('kids');
     }
 
-    const images = [{key:1, url:'src/assets/images/nikemen.png',func: men},
-                    {key:2, url:'src/assets/images/nikewomen.png', func: women},
-                    {key:3, url:'src/assets/images/nikekids.png', func: kids}];
+    const images = [{key:1, url:nikeMen ,func: men},
+                    {key:2, url:nikeWomen, func: women},
+                    {key:3, url: nikeKids, func: kids}];
 
     
 

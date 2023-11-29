@@ -2,10 +2,16 @@ import './carousel.css'
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleChevronLeft, faCircleChevronRight } from '@fortawesome/free-solid-svg-icons'
+import nike1 from '../../../../public/images/nike1.png';
+import nike2 from '../../../../public/images/nike2.png';
+import nike3 from '../../../../public/images/nike3.png';
+import nike4 from '../../../../public/images/nike4.png';
+import nike5 from '../../../../public/images/nike5.png';
+
 
 function Carousel () {
     let [current, setCurrent] = useState (0)
-    const images = [ 'src/assets/images/nike1.png', 'src/assets/images/nike2.png','src/assets/images/nike3.png', 'src/assets/images/nike4.png', 'src/assets/images/nike5.png']
+    const images = [nike1, nike2, nike3, nike4, nike5];
     const length = images.length;
 
     const prev = () => {
